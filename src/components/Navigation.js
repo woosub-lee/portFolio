@@ -18,11 +18,15 @@ function Navigation(){
             setOndev("Clicked");
         }
     };
+    const homeClick = () => {
+        setDevStatus(false);
+        setOndev("nonClicked");
+    }
     return(
         <div className="nav">
             <div className="Home">
                 <Link to="/">
-                    <img src={HomeIcon} alt="GotoHome" />
+                    <img src={HomeIcon} onClick={homeClick} alt="GotoHome" />
                 </Link>
                 <p>
                     HOME
