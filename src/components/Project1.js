@@ -30,7 +30,7 @@ function Project1() {
     return(
         <div className="OMM">
             <h2>
-                {Oh}{My}{Mirror} 프로젝트를 소개합니다.
+                {Oh}{My}{Mirror} 프로젝트를 소개합니다. 
             </h2>
         </div>
     );
