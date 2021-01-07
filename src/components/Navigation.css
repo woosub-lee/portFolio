@@ -35,3 +35,18 @@
 .Clicked{
     color: darkgrey;
 }
+@media screen and (max-width: 500px) {
+    .nav {
+        left: initial;
+        top: initial;
+        bottom: 0px;
+        width: 100%;
+        flex-direction: row;
+    }
+    .nav img{
+        margin: 0px 20px 0px 0px;
+    }
+    .nav p{
+        margin: 0px 20px 0px 0px;
+    }
+}

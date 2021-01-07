@@ -24,7 +24,7 @@ function Home(){
     const upName = () => {
         setBname(false);
         setName1(" Woosub ");
-        setName2(" ");
+        setName2("...");
     };
     if (Bname === false){
         dropName();
