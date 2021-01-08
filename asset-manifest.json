@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portFolio/static/css/main.4318432b.chunk.css",
-    "main.js": "/portFolio/static/js/main.55e9b3c0.chunk.js",
-    "main.js.map": "/portFolio/static/js/main.55e9b3c0.chunk.js.map",
+    "main.css": "/portFolio/static/css/main.4143d3b0.chunk.css",
+    "main.js": "/portFolio/static/js/main.d4589b8a.chunk.js",
+    "main.js.map": "/portFolio/static/js/main.d4589b8a.chunk.js.map",
     "runtime-main.js": "/portFolio/static/js/runtime-main.34876c2c.js",
     "runtime-main.js.map": "/portFolio/static/js/runtime-main.34876c2c.js.map",
     "static/js/2.4c50e47e.chunk.js": "/portFolio/static/js/2.4c50e47e.chunk.js",
     "static/js/2.4c50e47e.chunk.js.map": "/portFolio/static/js/2.4c50e47e.chunk.js.map",
     "index.html": "/portFolio/index.html",
-    "static/css/main.4318432b.chunk.css.map": "/portFolio/static/css/main.4318432b.chunk.css.map",
+    "static/css/main.4143d3b0.chunk.css.map": "/portFolio/static/css/main.4143d3b0.chunk.css.map",
     "static/js/2.4c50e47e.chunk.js.LICENSE.txt": "/portFolio/static/js/2.4c50e47e.chunk.js.LICENSE.txt",
     "static/media/DolphinIcon.2c092893.png": "/portFolio/static/media/DolphinIcon.2c092893.png",
     "static/media/OMM_black.baf442cf.png": "/portFolio/static/media/OMM_black.baf442cf.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.34876c2c.js",
     "static/js/2.4c50e47e.chunk.js",
-    "static/css/main.4318432b.chunk.css",
-    "static/js/main.55e9b3c0.chunk.js"
+    "static/css/main.4143d3b0.chunk.css",
+    "static/js/main.d4589b8a.chunk.js"
   ]
 }
