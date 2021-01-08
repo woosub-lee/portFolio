@@ -23,37 +23,39 @@ function Navigation(){
         setOndev("nonClicked");
     }
     return(
-        <div className="nav">
-            <div className="Home">
-                <Link to="/">
-                    <img src={HomeIcon} onClick={homeClick} alt="GotoHome" />
-                </Link>
-                <p>
-                    HOME
-                </p>
-            </div>
-            <div className="Developer">
-                <img src={DevIcon} onClick={devClick} alt="As Developer" />
-                <p className={onDev}>
-                    As Developer
-                </p>
+        <>
+            <div className="main_nav">
+                <div className="Home">
+                    <Link to="/">
+                        <img src={HomeIcon} onClick={homeClick} alt="GotoHome" />
+                    </Link>
+                    <p>
+                        HOME
+                    </p>
+                </div>
+                <div className="Developer">
+                    <img src={DevIcon} onClick={devClick} alt="As Developer" />
+                    <p className={onDev}>
+                        As Developer
+                    </p>
+                </div>
             </div>
             {devStatus ?
                 (
-                    <>
+                    <div className="sub_nav">
                         <Link to="/OMM">
                             <img src={OMMIcon} alt="Oh My Mirror" />
                         </Link>
                         <Link to="/Dolphin">
                             <img src={DolphinIcon} alt="Project Dolphin" />
                         </Link>
-                    </>
+                    </div>
                 ):(
                     <>
                     </>
                 )
             }
-        </div>
+        </>
     );
 }
 

@@ -1,4 +1,4 @@
-.nav {
+.main_nav {
     z-index: 1;
     position: fixed;
     top: 50px;
@@ -13,8 +13,26 @@
     font-family: "Noto Sans CJK KR Black";
     color: black;
 }
-
-.nav img {
+.main_nav img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.sub_nav {
+    z-index: 1;
+    position: fixed;
+    top: 50px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Noto Sans CJK KR Black";
+    color: black;
+}
+.sub_nav img {
     width: 60px;
     height: 60px;
     margin-bottom: 20px;
@@ -35,18 +53,39 @@
 .Clicked{
     color: darkgrey;
 }
-@media screen and (max-width: 500px) {
-    .nav {
-        left: initial;
+@media screen and (max-width: 600px) {
+    .main_nav {
+        left: 0;
         top: initial;
         bottom: 0px;
         width: 100%;
         flex-direction: row;
+        justify-content: center;
+        box-shadow: none;
+        border-radius: 0px;
     }
-    .nav img{
+    .main_nav img{
         margin: 0px 20px 0px 0px;
     }
-    .nav p{
+    .main_nav p{
+        margin: 0px 20px 0px 0px;
+    }
+    .sub_nav {
+        left: 0;
+        top: initial;
+        bottom: 0px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        box-shadow: none;
+        border-radius: 0px;
+        margin-bottom: 109px;
+        background-color: gray;
+    }
+    .sub_nav img{
+        margin: 0px 20px 0px 0px;
+    }
+    .sub_nav p{
         margin: 0px 20px 0px 0px;
     }
 }
